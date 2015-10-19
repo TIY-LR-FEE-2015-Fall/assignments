@@ -59,10 +59,8 @@ After completing this assignment, you be able to
 
 ```
 * [ ] Create a new Issue with these tasks!
-* [ ] Use the Github web interface to create a repository called
-  `02-basic-git-pr`
-* [ ] Use the Github web interface to create a branch called on
-  `02-basic-git-pr` called `develop`
+* [ ] Use the `hub` cli to create a repository called `02-basic-git-pr`
+* [ ] Use the `git` cli to create a branch called `develop`
 * [ ] In Github, open a PR _from_ `develop` _into_ `master`
 * [ ] Create your personal website
   * [ ] Checkpoint: Created and committed `index.html`
