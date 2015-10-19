@@ -34,7 +34,7 @@ After completing this assignment, you be able to
 ## Details
 
 ### Deliverables
-* [An issue in the class repo](https://github.com/TIY-LR-FEE-2015-June/assignments/issues/new) titled `02 -
+* [An issue in the class repo](https://github.com/TIY-LR-FEE-2015-Fall/assignments/issues/new) titled `02 -
   Basic Git PR - {{YOUR_NAME}}` with:
     * checkboxes as below under `Requirements`
 * A repository named `02-basic-git-pr` containing at least:
