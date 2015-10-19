@@ -34,12 +34,12 @@ After completing this assignment, you be able to
 ## Details
 
 ### Deliverables
-* [An issue in the class repo](https://github.com/TIY-LR-FEE-2015-June/assignments/issues/new) titled `1.1 -
-  Personal Website -- {{YOUR_NAME}}` with:
+* [An issue in the class repo](https://github.com/TIY-LR-FEE-2015-June/assignments/issues/new) titled `02 -
+  Basic Git PR -- {{YOUR_NAME}}` with:
     * checkboxes as below under `Requirements`
-* A repository named `1.1-Personal-Website` containing at least:
+* A repository named `02-basic-git-pr` containing at least:
   * `index.html`
-* A Pull Request (PR) in your `1.1-Personal-Website` repo:
+* A Pull Request (PR) in your `02-basic-git-pr` repo:
     * _from_ branch `develop`
     * _into_ branch `master`
 * A comment on your Issue with a link to your PR
@@ -52,27 +52,26 @@ After completing this assignment, you be able to
   + your email address.
   + a paragraph explaining why you develop
   + list of social links to Twitter, GitHub, etc.
+* Basic styles with background colors, text changes, etc
 * Your HTML should pass in the HTML validator at [https://html5.validator.nu/](https://html5.validator.nu/)
 
 ### Tasks
 
+```
 * [ ] Create a new Issue with these tasks!
 * [ ] Use the Github web interface to create a repository called
-  `1.1-Personal-Website`
+  `02-basic-git-pr`
 * [ ] Use the Github web interface to create a branch called on
-  `1.1-Personal-Website` called `<initials>-develop`
-* [ ] In Github, open a PR _from_ `<initials>-develop` _into_ `master`
+  `02-basic-git-pr` called `develop`
+* [ ] In Github, open a PR _from_ `develop` _into_ `master`
 * [ ] Create your personal website
-    * [ ] Checkpoint: Created and committed `index.html`
-    * [ ] Complete: Pushed `index.html`
-
-### Hard Mode
-
-On top of the basic requirements listed above, add some styles to your page in a separate `main.css` file.
-
-#### Hard Mode Tasks
-
-* [ ] Checkpoint: Created and committed `main.css`
+  * [ ] Checkpoint: Created and committed `index.html`
+  * [ ] Complete: Pushed `index.html`
+* [ ] Add basic text and background styles
+  * [ ] Checkpoint: Created and committed `styles.css`
+  * [ ] Checkpoint: Linked `styles.css` in `index.html` and committed
+  * [ ] Complete: Pushed changes
+```
 
 ## Additional Resources
 - Common HTML elements:
