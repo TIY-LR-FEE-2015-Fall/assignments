@@ -70,3 +70,11 @@ Normal Mode description
 
 - [Learn CSS Layout](http://learnlayout.com/)
 - [CSS Triangle Generator](http://apps.eky.hk/css-triangle-generator/)
+
+### Images
+
+* https://octodex.github.com/images/filmtocat.png
+* https://octodex.github.com/images/privateinvestocat.jpg
+* https://octodex.github.com/images/gracehoppertocat.jpg
+
+More images at https://octodex.github.com/ right click and select "Copy Image URL"
