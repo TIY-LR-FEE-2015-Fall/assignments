@@ -78,3 +78,5 @@ Normal Mode description
 * https://octodex.github.com/images/gracehoppertocat.jpg
 
 More images at https://octodex.github.com/ right click and select "Copy Image URL"
+
+For the avatar images use https://lorempixel.com/50/50
