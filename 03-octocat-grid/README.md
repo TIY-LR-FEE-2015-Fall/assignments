@@ -79,4 +79,4 @@ Normal Mode description
 
 More images at https://octodex.github.com/ right click and select "Copy Image URL"
 
-For the avatar images use https://lorempixel.com/50/50
+For the avatar images use http://lorempixel.com/50/50
