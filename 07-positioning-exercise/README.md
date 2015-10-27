@@ -43,7 +43,33 @@ This technique can also be used to pull in Font Awesome (the bower package is ca
 
 ## Tasks
 
+```
+* [ ] Create a new Issue with these tasks!
+* [ ] Use the `git` cli to initialize a new project
+* [ ] Checkpoint: Created and committed boilerplate [as listed in the Gitbook](https://rtablada.gitbooks.io/lr-fall-2015/content/resources/project-structure.html)
+* [ ] Use the `hub` cli to create a repository called `07-positioning-exercies`
+* [ ] Use the `git` cli to create a branch called `develop`
+* [ ] In Github, open a PR _from_ `develop` _into_ `master`
+* [ ] Setup build tools
+  * [ ] Use Bower to install `font-awesome` and `normalize-css`
+  * [ ] Merge `public` directory with directories from bower versions of `normalize-css` and `font-awesome`
+* [ ] Checkpoint: Create the markup to represent the pictured site
+  * [ ] Markup: "In This Lesson"
+  * [ ] Markup: "CSS" List
+  * [ ] Markup: "Share"
+  * [ ] Markup: Number
+  * [ ] Complete: Push `public/index.html`
+* [ ] Add styles for page
+  * [ ] Checkpoint: Style the Layout of the site
+    * [ ] Style Main box
+    * [ ] Style "In This Lesson"
+    * [ ] Style "CSS" List
+    * [ ] Style "Share"
+    * [ ] Style Number
+    * [ ] Complete: Push `public/index.html`
+```
+
 ## Additional Resources
 
-* [Default Project Structure](https://github.com/broccolijs/broccoli-merge-trees)
+* [Default Project Structure](https://rtablada.gitbooks.io/lr-fall-2015/content/resources/project-structure.html)
 * [Broccoli Merge Trees Docs](https://github.com/broccolijs/broccoli-merge-trees)
