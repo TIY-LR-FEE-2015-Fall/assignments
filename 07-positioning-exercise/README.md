@@ -51,6 +51,7 @@ This technique can also be used to pull in Font Awesome (the bower package is ca
 * [ ] Use the `git` cli to create a branch called `develop`
 * [ ] In Github, open a PR _from_ `develop` _into_ `master`
 * [ ] Setup build tools
+  * [ ] Use NPM to install (with `--save-dev` flag) `broccoli` and `broccoli-merge-trees`
   * [ ] Use Bower to install `font-awesome` and `normalize-css`
   * [ ] Merge `public` directory with directories from bower versions of `normalize-css` and `font-awesome`
 * [ ] Checkpoint: Create the markup to represent the pictured site
