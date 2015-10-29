@@ -1,43 +1,3 @@
-# Sk8 Site - Wireframe => HTML
-
-## Description
-Without fail, a front-end developer will need to convert a wireframe into a fully functioning website, and something that works well on mobile and tablet devices.
-
-For this assignment, you'll be creating this below wireframe and turning into a site that not only renders well from a normal desktop size, but also transitions and is very usable on smaller viewports.
-
-![Powell Peralta](assets/powell_peralta.jpg)
-
-## Objectives
-
-### Learning Objectives
-
-After completing this assignment, you should…
-
-* Have solid understanding of HTML/CSS/SASS
-* Understand principles of responsive web design and be able to effectively execute a solid flow of content from desktop to mobile (breaking down columns, hiding content, etc)
-* Be able to leverage developer tools to test on mobile devices.
-
-### Performance Objectives
-
-After completing this assignment, you be able to effectively use
-
-* From a high fidelity wireframe, you should be able to, with a high degree of accuracy, create an html prototype of said design.
-* @media queries
-* SASS
-* HTML
-* Setup build tools for compiling SASS
-
-## Details
-
-### Deliverables
-
-* A repo containing at least:
-  * `public/index.html`
-  * `scss/<sass files>.scss`
-
-## Tasks
-
-```
 * [ ] Create a new Issue with these tasks!
 * [ ] Use the `git` cli to initialize a new project
 * [ ] Checkpoint: Created and committed boilerplate [as listed in the Gitbook](https://rtablada.gitbooks.io/lr-fall-2015/content/resources/project-structure.html)
@@ -52,7 +12,7 @@ After completing this assignment, you be able to effectively use
   * [ ] Import `font-awesome` in `app.scss` and set the font_path variable
   * [ ] Import `bourbon` in `app.scss`
   * [ ] Import `neat` in `app.scss`
-  * [ ] Merge `public` directory with directories from the bower version of `font-awesome` if not using CDN font path
+  * [ ] Merge `public` directory with directories from the bower version of `font-awesome` if not using CDN font path and output of SASS
   * [ ] Complete: Commit & Push `Brocfile.js`, `sass/app.scss`, `bower.json`, and `package.json` files
 * [ ] In Github, open a PR _from_ `develop` _into_ `master`
 * [ ] Checkpoint: Create the markup to represent header
@@ -125,9 +85,3 @@ After completing this assignment, you be able to effectively use
     * [ ] Markup: Message textarea
     * [ ] Markup: Submit Button
   * [ ] Complete: Commit & Push `sass/*`
-```
-
-## Normal Mode
-
-* Create a web page from the given Powell Peralta wireframe.
-* The finished prototype must be responsive and adjust in a usable way to mobile devices.
