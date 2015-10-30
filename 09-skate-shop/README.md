@@ -131,3 +131,8 @@ After completing this assignment, you be able to effectively use
 
 * Create a web page from the given Powell Peralta wireframe.
 * The finished prototype must be responsive and adjust in a usable way to mobile devices.
+
+## Resources
+
+http://bourbon.io
+http://neat.bourbon.io
