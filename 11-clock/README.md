@@ -18,8 +18,7 @@ After completing this assignment, you should:
 
 After completing this assignment, you should be able to effectively use:
 
-* The install tools and processes given to you to build a site with SCSS and JS
-* gh-pages
+* The Build tools and processes given to you to build a site with SCSS and JS
 
 ## Details
 
