@@ -13,6 +13,7 @@ After completing this assignment, you should:
 * Have mastery of general JS syntax
 * Be able to write a series of functions that achieve a series of steps
 * Use `document.querySelector` and `addEventListener` to modify DOM elements
+* Use `window.setTimeout` or `window.setInterval` to time callback functions
 
 ### Performance Objectives
 
