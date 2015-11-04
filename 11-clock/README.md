@@ -65,7 +65,7 @@ Create a new Github repo, setup your project files, and recreate the following s
   * [ ] `console.log` the percentage of a minute that the current seconds
     represents (e.g., if 30 seconds have elapsed, `console.log` 0.5)
   * [ ] Using the percent above, dynamically modify the length of the timer bar.
-  * [ ] `console.log` an RFB color that is based on the current time every second.
+  * [ ] `console.log` an RGB color that is based on the current time every second.
   * [ ] Dynamically update the background color of the page using the color.
   * [ ] Display the generated color's hex value on hover.
   * [ ] Mission Complete!
