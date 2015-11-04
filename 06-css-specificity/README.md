@@ -342,4 +342,5 @@ There are some trick questions here, so pay attention!
 
 ## Additional Resources
 
-* Read [Class notes on CSS specificity](https://github.com/TIY-Austin-Front-End-Engineering/Curriculum/tree/master/css-specificity)
+* Read [Class notes on CSS specificity](https://github.com/TIY-Austin-Front-End-Engineering/Curriculum/tree/May2015/css-specificity)
+* [MDN Docs on Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
