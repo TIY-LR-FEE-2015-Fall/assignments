@@ -12,9 +12,7 @@ After completing this assignment, you should:
 
 * Have mastery of general JS syntax
 * Be able to write a series of functions that achieve a series of steps
-* Understand arrays and loops, Math oeprations, Stirng operations, and DOM accessores
-* Be able to recite the meaning and importance of SOLID principles
-* Be able to breakdown a simple process of mathematical steps into a series of statements in JS
+* Use `document.querySelector` and `addEventListener` to modify DOM elements
 
 ### Performance Objectives
 
@@ -28,7 +26,9 @@ After completing this assignment, you should be able to effectively use:
 ### Deliverables
 
 * A repo containing at least:
-    * A `main.js` file that holds your JS
+    * Standard Boilerplate with Broccoli build tools
+    * `public/app.js` file with scripts to make clock work
+    * No `onclick` or other similar attributes in HTML
 
 ### Requirements
 
