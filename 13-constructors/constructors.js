@@ -26,15 +26,20 @@
 // 1. ------------------------------------------------------------ //
 
 // Create a simple constructor function called `Foo` and create a new
-// instance from it called `foo`.
+// instance from it called `bar`.
 
 // -- ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ - Your Answer - ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ -- //
+
+function Foo() {
+}
+
+var bar = new Foo();
 
 // -- ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ -- //
 
 // ==== Validating =============================================== //
 
-console.assert(foo instanceof Foo);
+console.assert(bar instanceof Foo);
 
 // --------------------------------------------------------------- //
 
@@ -48,6 +53,10 @@ console.assert(foo instanceof Foo);
 // `says` and the value should be `life is ruff`
 
 // -- ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ - Your Answer - ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ -- //
+
+function Dog() {
+  this.says = `life is ruff`;
+}
 
 // -- ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ -- //
 
@@ -64,16 +73,24 @@ console.assert(new Dog().says === 'life is ruff');
 
 // Create a constructor function called `Cat` that has a method on
 // it's prototype called `growl` that returns the string `meow`.
-// create an instance of this called `cat`
+// create an instance of this called `garfield`
 
 // -- ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ - Your Answer - ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ -- //
+function Cat() {
+}
+
+Cat.prototype.growl = function() {
+  return 'meow';
+};
+
+var garfield = new Cat();
 
 // -- ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ -- //
 
 // ==== Validating =============================================== //
 
-console.assert(cat instanceof Cat);
-console.assert(cat.growl() === 'meow');
+console.assert(garfield instanceof Cat);
+console.assert(garfield.growl() === 'meow');
 
 // --------------------------------------------------------------- //
 
@@ -84,10 +101,16 @@ console.assert(cat.growl() === 'meow');
 
 // Create a constructor called `KeepSecret`. The constructor function
 // itself should accept a parameter called `secret` it should store
-// this in a private variable (use a closure). Add a method to the
-// prototype that is called `squeal` that returns the secret string.
+// this in a private variable (use a closure). On the `KeepSecret` object
+// create a method called `squeal` that returns the secret string.
 
 // -- ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ - Your Answer - ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ -- //
+
+function KeepSecret(secret) {
+  this.squeal = function() {
+    return secret;
+  };
+}
 
 // -- ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ -- //
 
@@ -110,11 +133,25 @@ console.assert(dontTellNobody.squeal() === mySecret);
 // be stored using a private variable like you did with KeepSecret.
 // The 2nd param to the `Safe` constructor needs to be an instance
 // of `Key` you need to store it privately as well. Add a function
-// to the Safe prototype called `unlock` that accepts a key. If the
+// to the Safe instance called `unlock` that accepts a key. If the
 // key matches the key that was used to create the Safe; then return
 // the secret data.
 
 // -- ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ - Your Answer - ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ -- //
+
+// Create a constructor called `Key`
+function Key() {
+
+}
+
+// Create a constructor called `Safe`
+function Safe(data, safeKey) {
+  this.unlock = function(compareKey) {
+    if (compareKey === safeKey) {
+      return data;
+    }
+  };
+}
 
 // -- ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ -- //
 
