@@ -1,0 +1,12 @@
+{
+    "name": "javascript-koans",
+    "version": "0.0.1",
+    "title": "JavaScript Koans",
+    "description": "Reach JavaScript Enlightenment",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}
