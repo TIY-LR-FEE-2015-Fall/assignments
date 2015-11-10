@@ -1,307 +1,255 @@
-    # JavaScript Hoisting Worksheet
+# JavaScript Hoisting Worksheet
 
-    ## Instructions
-    a. Review each code snippet below.
-    b. Fill in what will be output to the console.
-    c. Run the code to see if you were correct.
-    d. Describe why the code behaved as it did.
-    e. Re-write the code snippet to maintain the same output, but to avoid hoisting.
+## Instructions
+a. Review each code snippet below.
+b. Fill in what will be output to the console.
+c. Run the code to see if you were correct.
+d. Describe why the code behaved as it did.
+e. Re-write the code snippet to maintain the same output, but to avoid hoisting.
 
-    ```js
-    var myvar = 'my value';
+---
 
-    (function() {
-    	console.log(myvar);
-    	var myvar = 'local value';
-    })();
-    ```
+## Question 1
 
+```js
+var myvar = 'my value';
 
-    > output:
-    >-
-    >-
-    >-
-    > why?
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    > rewrite without hoisting
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
+(function() {
+	console.log(myvar);
+	var myvar = 'local value';
+})();
+```
 
-    ```js
-    var flag = true;
+### output:
 
-    function test() {
-    	if(flag) {
-    		var flag = false;
-    		console.log('Switch flag from true to false');
-    	}
-    	else {
-    		flag = true;
-    		console.log('Switch flag from false to true');
-    	}
-    }
-    test();
-    ```
+ Your answer here
 
-    > output:
-    >-
-    >-
-    >-
-    > why?
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    > rewrite without hoisting
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
+### why?
 
+Your Answer here
 
-    ```js
-    var message = 'Hello world';
+### rewrite without hoisting
 
-    function saySomething() {
-    	console.log(message);
-    	var message = 'Foo bar';
-    }
-    saySomething();
-    ```
+```js
+// Your Code Here
+```
 
-    > output:
-    >-
-    >-
-    >-
-    > why?
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    > rewrite without hoisting
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
+---
 
-    ```js
-    var message = 'Hello world';
+## Question 2
 
-    function saySomething() {
-    	console.log(message);
-    	message = 'Foo bar';
-    }
-    saySomething();
-    ```
+```js
+var flag = true;
 
-    > output:
-    >-
-    >-
-    >-
-    > why?
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
+function test() {
+	if(flag) {
+		var flag = false;
+		console.log('Switch flag from true to false');
+	}
+	else {
+		flag = true;
+		console.log('Switch flag from false to true');
+	}
+}
+test();
+```
 
+### output:
 
-    ```js
-    function test() {
-    	console.log(a);
-    	console.log(foo());
+ Your answer here
 
-    	var a = 1;
-    	function foo() {
-    		return 2;
-    	}
-    }
+### why?
 
-    test();
-    ```
+Your Answer here
 
-    > output:
-    >-
-    >-
-    >-
-    > why?
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    > rewrite without hoisting
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
+### rewrite without hoisting
 
-    ```js
-    (function() {
-    	console.log(bar);
-    	foo();
+```js
+// Your Code Here
+```
 
-    	function foo() {
-    		console.log('aloha');
-    	}
+---
 
-    	var bar = 1;
-    	baz = 2;
-    })();
-    ```
+## Question 3
 
-    > output:
-    >-
-    >-
-    >-
-    > why?
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    > rewrite without hoisting
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
+```js
+var message = 'Hello world';
 
-    ```js
-    var run = false;
+function saySomething() {
+	console.log(message);
+	var message = 'Foo bar';
+}
+saySomething();
+```
 
-    function fancy(arg1, arg2) {
-    	if(run) {
-    		console.log('I can run');
-    	}
-    	else {
-    		console.log('I can\'t run');
-    	}
+### output:
 
-    	function run() {
-    		console.log('Will I run?');
-    	}
-    }
-    fancy();
-    ```
+ Your answer here
 
-    > output:
-    >-
-    >-
-    >-
-    > why?
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    > rewrite without hoisting
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
+### why?
 
-    ```js
-    var run = false;
+Your Answer here
 
-    function fancy(arg1, arg2) {
-    	if(run) {
-    		console.log('I can run');
-    	}
-    	else {
-    		console.log('I can\'t run');
-    	}
+### rewrite without hoisting
 
-    	var run = function() {
-    		console.log('Will I run?');
-    	}
-    }
-    fancy();
-    ```
+```js
+// Your Code Here
+```
 
-    > output:
-    >-
-    >-
-    >-
-    > why?
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    > rewrite without hoisting
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
-    >-
+---
+
+## Question 4
+
+```js
+var message = 'Hello world';
+
+function saySomething() {
+	console.log(message);
+	message = 'Foo bar';
+}
+saySomething();
+```
+
+### output:
+
+ Your answer here
+
+### why?
+
+Your Answer here
+
+---
+
+## Question 5
+
+```js
+function test() {
+	console.log(a);
+	console.log(foo());
+
+	var a = 1;
+	function foo() {
+		return 2;
+	}
+}
+
+test();
+```
+
+### output:
+
+ Your answer here
+
+### why?
+
+Your Answer here
+
+### rewrite without hoisting
+
+```js
+// Your Code Here
+```
+
+---
+
+## Question 6
+
+```js
+(function() {
+	console.log(bar);
+	foo();
+
+	function foo() {
+		console.log('aloha');
+	}
+
+	var bar = 1;
+	baz = 2;
+})();
+```
+
+### output:
+
+ Your answer here
+
+### why?
+
+Your Answer here
+
+### rewrite without hoisting
+
+```js
+// Your Code Here
+```
+
+---
+
+## Question 7
+
+```js
+var run = false;
+
+function fancy(arg1, arg2) {
+	if(run) {
+		console.log('I can run');
+	}
+	else {
+		console.log('I can\'t run');
+	}
+
+	function run() {
+		console.log('Will I run?');
+	}
+}
+fancy();
+```
+
+### output:
+
+ Your answer here
+
+### why?
+
+Your Answer here
+
+### rewrite without hoisting
+
+```js
+// Your Code Here
+```
+
+---
+
+## Question 8
+
+```js
+var run = false;
+
+function fancy(arg1, arg2) {
+	if(run) {
+		console.log('I can run');
+	}
+	else {
+		console.log('I can\'t run');
+	}
+
+	var run = function() {
+		console.log('Will I run?');
+	}
+}
+fancy();
+```
+
+### output:
+
+ Your answer here
+
+### why?
+
+Your Answer here
+
+### rewrite without hoisting
+
+```js
+// Your Code Here
+```
