@@ -20,6 +20,7 @@ After completing this assignment, you should be able to...
 
 * Start a new jQuery project using bower
 * Create UI with CSS (SASS) and HTML
+* Use modules to start various applications
 
 ## Details
 
@@ -27,9 +28,9 @@ After completing this assignment, you should be able to...
 
 * A repo containing at standard boilerplate with files for each mode:
 
-  * `public/accordian.html` & `public/accordian.js` & `public/accordian.css`
-  * `public/keyboard.html` & `public/keyboard.js` & `public/keyboard.css`
-  * `public/calendar.html` & `public/calendar.js` & `public/calendar.css`
+  * `public/accordian.html`
+  * `public/keyboard.html`
+  * `public/calendar.html`
 
 ### Requirements
 
