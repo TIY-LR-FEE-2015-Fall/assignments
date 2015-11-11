@@ -1,0 +1,14 @@
+{
+    "name": "jquery-practice",
+    "version": "0.0.1",
+    "title": "jQuery Practice",
+    "description": "Practice DOM traversal and manipulation",
+    "difficultyModes": [
+        "Easy",
+        "Normal",
+        "Hard"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}
