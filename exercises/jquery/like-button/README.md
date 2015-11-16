@@ -1,4 +1,4 @@
-# Build a like button with Backbone
+# Build a like button with jQuery
 
 ## Description
 Using jQuery events. The button should keep track of how many times it has been clicked and update its count each time it is clicked again.
