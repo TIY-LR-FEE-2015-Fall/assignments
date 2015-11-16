@@ -46,7 +46,7 @@ var n = a.closest('span'); // Span with Miley Cyrus
 
 // For every band name, show the current band when clicked
 $('.artists__name').on('click', function() {
-  currentlyClicked = $(this);
+  var currentlyClicked = $(this);
 
   // Use timeout to smooth out animations
   window.setTimeout(() => {
@@ -57,7 +57,7 @@ $('.artists__name').on('click', function() {
   // Use timeout to smooth out animations
   window.setTimeout(() => {
     // hide other images?
-    z = currentlyClicked.parent()
+    currentlyClicked.parent()
       .siblings()
       .find('.artists__img')
       .fadeOut();
