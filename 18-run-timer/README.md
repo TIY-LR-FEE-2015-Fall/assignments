@@ -43,7 +43,9 @@ After completing this assignment, you be able to effectively use
 
 Recreate the following app based on the following screenshots and clickable prototype.
 
-<iframe width="396" height="858" src="//invis.io/SF50MD39A" frameborder="0" allowfullscreen></iframe>
+### [Clickable Prototype](https://invis.io/3U50MD2TC)
+
+* https://invis.io/3U50MD2TC
 
 ### Index Page
 
