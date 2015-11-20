@@ -105,6 +105,52 @@ By the end of this application you should be able to see all runs, create new ru
 * Icon Font - Font Awesome
 * Base Line Height - 18px
 
+## Taskss
+
+```md
+#### Index Screen
+* [ ] Checkpoint: Create the Markup For The Index Page (RAW HTML)
+  * [ ] Markup: Nav Bar
+  * [ ] Markup: List of Runs
+  * [ ] Markup: Run Date
+  * [ ] Markup: New Run Button
+  * [ ] Complete: Commit & Push `public/index.html`
+* [ ] Style Style Index Page
+  * [ ] Style: Nav Bar
+  * [ ] Style: List of Runs
+  * [ ] Style: Run Date
+  * [ ] Style: New Run Button
+  * [ ] Complete: Commit & Push `sass` directory
+* [ ] Setup Models and Collections
+  * [ ] Create Run Model with defaults for `time`, `date`, and `notes`
+  * [ ] Set `urlRoot` on Run Model to point to tiny-lr server
+  * [ ] Create Run Collection with `url` pointed to tiny-lr server
+* [ ] Setup Routes Map in `src/router.js`
+  * [ ] Create Route for Index Page
+  * [ ] Create Route for New Run Page
+  * [ ] Create Route for Run Detail Page (should take a dynamic id)
+  * [ ] Create Route for Run Edit Page (should take a dynamic id)
+  * [ ] Complete: Commit & Push `src` directory
+* [ ] List View
+  * [ ] Create View for Index List
+    * [ ] View should be represented by a `ul`
+    * [ ] View should render when collection is updated from the server data
+    * [ ] View should render a List Item view for every item in the collection
+    * [ ] Complete: Commit & Push `src` directory
+  * [ ] Create View for List Item
+    * [ ] View should be represented by a `li`
+    * [ ] Use template string to render HTML for date and time to match mockup HTML
+    * [ ] View should rerender on model changes
+    * [ ] Complete: Commit & Push `src` directory
+  * [ ] Show List View on Home Route
+    * [ ] Remove mockup HTML from `index.html` (Leave nav bar)
+    * [ ] Create shared collection instance across all routes
+    * [ ] Fetch collection when app loads
+    * [ ] Create new instance of List View with passed in collection
+    * [ ] Render List View to `#outlet`
+    * [ ] Complete: Commit & Push `src` directory
+```
+
 ## Additional Resources
 
 * http://backbonejs.org/
