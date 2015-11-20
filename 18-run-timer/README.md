@@ -43,6 +43,13 @@ After completing this assignment, you be able to effectively use
 
 Recreate the following app based on the following screenshots and clickable prototype.
 
+This app should use the [tiny-lr server](http://tiny-lr.herokuapp.com) or a similar API to persist runs over time.
+If using the tiny-lr server name your collection like:
+
+```
+http://tiny-lr.herokuapp.com/collections/runs-<your initials>
+```
+
 ### [Clickable Prototype](https://invis.io/3U50MD2TC)
 
 * https://invis.io/3U50MD2TC
