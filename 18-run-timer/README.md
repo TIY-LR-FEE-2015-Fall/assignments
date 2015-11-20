@@ -12,7 +12,7 @@ Using what you know of Backbone, make a styled and functional app based on these
 
 After completing this assignment, you should...
 
-* Understand how to use Bacbone.js to build a CRUD app
+* Understand how to use Backbone.js to build a CRUD app
 
 ### Performance Objectives
 
@@ -77,9 +77,16 @@ This shows the date, time, and notes for a single run.
 
 > **NOTE** These screens do not show an edit view, but your app should have an edit screen similar to the "New Run" screen
 
+## Description
+
+By the end of this application you should be able to see all runs, create new runs, see the details for a run, and edit runs.
+
+> **NOTE** This app doesn't allow you to delete runs
+
 ## Brand/Design Resources
 
 > You should store these as SASS variables for use around your app styles.
+
 
 ### Colors
 
