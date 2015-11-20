@@ -103,7 +103,8 @@ By the end of this application you should be able to see all runs, create new ru
 
 * Font Family - Roboto
 * Icon Font - Font Awesome
-* Base Line Height - 18px
+* Base Font Size - 16px
+* Base Line Height - 24px
 
 ## Taskss
 
