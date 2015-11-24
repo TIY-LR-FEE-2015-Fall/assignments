@@ -54,6 +54,15 @@ Style your login form to look like this:
 The Logo used can be [found here](treemoLabs-logo.png).
 The background patterns can be found [here](bg-login-top.png) and [here](bg-login.png).
 
+## Hard Mode
+
+Use Backbone Model Validations to display different error messages based these combinations:
+
+* Please enter an email address before logging in.
+* Please enter a password before logging in.
+* Your user was not found.
+* The password you entered is incorrect.
+
 ## Insane Mode
 
 Use tiny-lr server and jQuery to check the username and password combination against a list retrieved from the server instead of from a hard coded list in the controller.
