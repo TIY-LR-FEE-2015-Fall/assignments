@@ -18,8 +18,6 @@ After completing this assignment, you should...
 After completing this assignment, you be able to effectively use
 
 * Backbone Views
-* Backbone Model
-  * Validation
 
 ## Details
 
@@ -38,11 +36,7 @@ After completing this assignment, you be able to effectively use
 
 
 ## Functionality Mode
-* The login form should display the following errors to the user if their input is invalid:
-	* Please enter an email address before logging in.
-	* Please enter a password before logging in.
-	* Your user was not found.
-	* The password you entered is incorrect.
+* The login form should alert if the login attempt fails (did not match username and password)
 * If the user logs in successfully they should be redirected to http://theironyard.com
 * The email address field should not allow non-email address input.
 * The password address field should have the letters obfuscated.
