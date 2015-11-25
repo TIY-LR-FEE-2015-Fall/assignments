@@ -1,0 +1,12 @@
+{
+    "name": "backbone-exercises",
+    "version": "0.0.1",
+    "title": "backbone-exercises",
+    "description": "Achieve Backbone mastery",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}
