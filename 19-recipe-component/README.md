@@ -50,3 +50,8 @@ This means you will start with Acceptance tests, then Integration Tests for comp
 - [ ] A user can see a list of all recipes
 - [ ] A user can navigate to the detail page for a single recipe
 ```
+
+## Resources
+
+* [Ember Testing Guides](http://guides.emberjs.com/v2.2.0/testing/)
+* [Ember CLI Mirage Docs](http://www.ember-cli-mirage.com/docs/v0.2.x/)
