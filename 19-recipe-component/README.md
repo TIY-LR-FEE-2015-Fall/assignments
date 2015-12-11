@@ -12,6 +12,9 @@ After completing this assignment, you should be able to:
 In this assignment you will turn user stories for an application feature into Test Driven Code.
 This means you will start with Acceptance tests, then Integration Tests for components, then unit tests (if you need unit tests).
 
+For your Acceptance tests try to execute just the HTML shown in the first screenshot.
+Then after all of your tests are passing, style to make things look like the other screenshots.
+
 ### Deliverables
 
 * An ember-cli project
@@ -34,6 +37,10 @@ This means you will start with Acceptance tests, then Integration Tests for comp
 - [ ] A user can see the `recipe-items` for a single `recipe`
 - [ ] A user can modify the `servings` for a `recipe` and see updated values for `recipe-items`
 ```
+
+### Basic HTML
+
+![](basic-html.png)
 
 #### Default Servings
 
