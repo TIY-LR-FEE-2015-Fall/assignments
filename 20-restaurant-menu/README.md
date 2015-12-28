@@ -96,6 +96,6 @@ However, there will likely be custom styles on top of this.
 - Allow staff members to mark an order as completed
 
 ## Additional Resources
-- [Example](https://eatstreet.com/angel-thai-cuisine/menu)
 - [Order Up](https://orderup.com/restaurants/nuvo-burrito/delivery/categories/0)
 - [Assignment](http://obese-finger.surge.sh)
+- [Assignment Admin](http://obese-finger.surge.sh/admin)
