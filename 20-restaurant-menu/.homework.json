@@ -1,0 +1,13 @@
+{
+    "name": "majestic-thai",
+    "version": "0.0.1",
+    "title": "majestic-thai",
+    "description": "A dynamic restaurant page",
+    "difficultyModes": [
+        "Normal",
+        "Hard"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}
