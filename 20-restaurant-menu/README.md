@@ -56,43 +56,43 @@ However, there will likely be custom styles on top of this.
 ### Tasks
 #### Getting Started
 - [ ] Create a new Ember CLI application
+  * [ ] Update to Ember 2.2
+  * [ ] Update to Ember Data 2.2
+  * [ ] Install Material Lite
+  * [ ] Install Ember Simple Auth
+  * [ ] Install Ember CLI Mirage
+- [ ] Launch API to Heroku
+- [ ] Connect Application Adapter to Heroku API
 - [ ] Setup templates for the different dynamic portions of the application
 
 #### Menu
 - [ ] Fetch the menu items
-- [ ] Render a template for each menu item, not according to category
 - [ ] Define a Model to represent menu items
-- [ ] Define a Component to represent the list of food items
-- [ ] Make a Component responsible for each individual item in the menu
-- [ ] `console.log` the food model when I click on its price button
+- [ ] Categorize Menu Items
+- [ ] For each category show category name
+- [ ] Define a Component to represent a single menu item when ordering
 - [ ] Define a Model to represent an order
-- [ ] Create an order service or route to manage adding order items
-- [ ] `console.log` the order when I click on the foods price
-- [ ] Add the food model to the order when the price is clicked
-- [ ] Separate the menu items by category
-- [ ] Optionally make a Component for each Category of menu items
+- [ ] Create an order service to manage adding order items
+- [ ] `console.log` the order when I click on the "Add To Cart"
 
 #### Order Sidebar
 - [ ] Create an Order Component to show the current order being built
-- [ ] Add an instance of the Order Component to your route template
-- [ ] `console.log` the order whenever an item is added to the order
+- [ ] Add an instance of the Order Component to your `menu` template
 - [ ] Show each item in your order in your component template
 - [ ] In your order model, define a `subtotal` computed property that shows the price of all of the added items
 - [ ] Show the `subtotal` for your order in your Order Component template
-- [ ] Save the order data to tiny-lr or Firebase when the order is submitted with related menu items
+- [ ] Save order from cart service when user submits cart
 
 #### Back of House
-- [ ] Create a route group for logging in to the back of house system
 - [ ] Create a back of house index for all menu items
-- [ ] Create a back of house create view for new menu items
+  * [ ] Show table consisting of `name`, `price`, and an Edit Link
+- [ ] Create a back of house create view for new menu items with inputs for all fields
 - [ ] Create a back of house edit view for existing menu items
 - [ ] Create a back of house action for destroying existing menu items
 - [ ] Create a back of house index for orders showing the total price
 - [ ] Create a back of house detail view for seeing the purchased items for a single order
 
 ## Hard Mode
-- Validate to make sure that a user does not submit an empty order
-- Using a password (this can be set as a string in your code), restrict access to the back of house systems
 - Allow staff members to mark an order as completed
 
 ## Additional Resources
