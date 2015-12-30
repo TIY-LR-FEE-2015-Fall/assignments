@@ -89,7 +89,7 @@ However, there will likely be custom styles on top of this.
 - [ ] Create a back of house create view for new menu items with inputs for all fields
 - [ ] Create a back of house edit view for existing menu items
 - [ ] Create a back of house action for destroying existing menu items
-- [ ] Create a back of house index for orders showing the total price
+- [ ] Create a back of house index for orders showing the total price for each
 - [ ] Create a back of house detail view for seeing the purchased items for a single order
 
 ## Hard Mode
